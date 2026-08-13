@@ -42,11 +42,11 @@ If the Slice needs a criterion that does not exist, add it to the Specification 
 
 ---
 
-## Let GitHub carry the structure
+## Link it to its Specification
 
-Make the Slice a subissue of its Specification. Use issue dependencies for blocking Slices.
+Make the Slice a sub-issue of its Specification, and use issue dependencies for blocking Slices. Keep both out of the body.
 
-Put the target branch in the document because the issue has no branch field.
+Put the target branch in the body. The issue has no branch field.
 
 ---
 

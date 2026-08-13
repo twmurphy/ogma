@@ -27,6 +27,13 @@ Some words name more than one document, so route them by the request itself:
 * **PR** routes by scope: one issue to the Issue PR, a whole feature branch to the Feature PR.
 * **Epic** routes by scope. One coherent product outcome becomes a Specification. Several independent specifications require an Initiative or Epic Tracker. No such tracker exists yet. Say so, and keep the specifications separate rather than forcing them into one Specification.
 
+## Filing
+
+Read the filing reference for the document you are writing.
+
+* Issues and pull requests live on GitHub. Use the [remote filing reference](refs/file-remote.md)
+* Other documents live in the repository. Use the [local filing reference](refs/file-local.md)
+
 ---
 
 ## Routing statements

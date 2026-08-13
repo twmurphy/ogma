@@ -96,6 +96,8 @@ Do not repeat the same state in prose. Two copies will drift.
 
 Use the document body for meaning, reasoning, scope, and acceptance.
 
+[Filing remotely](file-remote.md) names what GitHub carries for an issue.
+
 ---
 
 ## Normative or historical

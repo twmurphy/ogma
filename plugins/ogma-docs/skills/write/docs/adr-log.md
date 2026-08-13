@@ -34,6 +34,18 @@ Write a full ADR when someone will need to reconstruct why the rule won without 
 
 ---
 
+## Where it lives
+
+`.ogma/docs/adr/`, per [filing locally](../refs/file-local.md).
+
+```text
+.ogma/docs/adr/
+  log.md                 every rule in force
+  async-jobs-use-x.md    a full ADR, named after its rule
+```
+
+---
+
 ## Skeleton: log entry
 
 Each entry states one rule.
@@ -52,7 +64,7 @@ Replace an entry when its rule changes. Git holds the previous version.
 ## Skeleton: full ADR
 
 ```markdown
-# ADR-<nn>: <Decision>
+# <Decision>
 
 **Origin:** <Specification, issue, or PR, or "standalone">
 
@@ -75,6 +87,10 @@ Replace an entry when its rule changes. Git holds the previous version.
 | <Alternative> | <Reason> |
 ```
 
-Give the rule a log entry too, so planning finds it without reading the ADR. The log entry is the rule in force.
+Give the rule a log entry too, so planning finds it without reading the ADR. The log entry is the rule in force, and it is the only thing pointing at the argument:
+
+```markdown
+**Argument:** [<decision>](<file>.md)
+```
 
 Update the ADR with its entry so both state the current rule.
