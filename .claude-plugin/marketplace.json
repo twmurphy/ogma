@@ -1,0 +1,12 @@
+{
+  "name": "ogma",
+  "owner": { "name": "Tom", "email": "tomwademurphy@gmail.com" },
+  "metadata": { "description": "Operating Guide for Making Anything" },
+  "plugins": [
+    {
+      "name": "ogma-docs",
+      "source": "./plugins/ogma-docs",
+      "description": "Operating guide for making great docs."
+    }
+  ]
+}
