@@ -4,8 +4,8 @@
   "metadata": { "description": "Operating Guide for Making Anything" },
   "plugins": [
     {
-      "name": "ogma-docs",
-      "source": "./plugins/ogma-docs",
+      "name": "ogma",
+      "source": "./plugins/ogma",
       "description": "Operating guide for making great docs."
     }
   ]
