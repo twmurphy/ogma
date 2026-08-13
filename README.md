@@ -37,8 +37,6 @@ Name the document and the agent routes itself:
 Write an ADR for the decision to keep issue state in GitHub metadata.
 ```
 
-Ambiguous words route by scope. A "task" becomes a slice, a "PR" routes by whether it covers one issue or a whole feature branch, and an "epic" becomes a specification.
-
 ### Edit an existing document
 
 The same skill covers revision. It applies the reference for that document type to what is already written:
