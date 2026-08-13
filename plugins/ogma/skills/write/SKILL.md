@@ -21,12 +21,6 @@ Read the file for the document you are writing. Each one names the shared refere
 | A PR for a Feature Branch | [docs/pr-feature.md](docs/pr-feature.md) |
 | A commit message | [docs/commit.md](docs/commit.md) |
 
-Some words name more than one document, so route them by the request itself:
-
-* **Task** routes to Slice. Feature implementation uses a Slice, not a generic task.
-* **PR** routes by scope: one issue to the Issue PR, a whole feature branch to the Feature PR.
-* **Epic** routes by scope. One coherent product outcome becomes a Specification. Several independent specifications require an Initiative or Epic Tracker. No such tracker exists yet. Say so, and keep the specifications separate rather than forcing them into one Specification.
-
 ## Filing
 
 Read the filing reference for the document you are writing.
