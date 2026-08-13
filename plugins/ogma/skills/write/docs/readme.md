@@ -2,38 +2,94 @@
 
 Reference for [`write`](../SKILL.md).
 
-A README helps a new reader understand where they are, how to run the code, and where to make a change.
+A README is the repository landing page. It should explain what the project is, why it is useful, how to try it, and where to go next.
 
-**Read first:** [level set](../refs/level-set.md).
+Optimize for first time readers and scanning.
 
-**Lifecycle:** normative. Update it when the repository or directory changes.
-
----
-
-## What to include
-
-At the repository root, cover:
-
-* what the repository does
-* how to get it running
-* where the code lives
-* which conventions to follow
-* what will surprise a new contributor
-
-A directory README usually needs only its purpose, conventions, and gotchas.
+**Flow:** What is this? → Why use it? → How do I try it? → Where next?
 
 ---
 
-## Let the environment speak
+## Guidelines
 
-Do not copy facts already available from scripts, config, or `--help`.
+Lead with the project, not its implementation.
 
-Point to the command or file instead.
+Get to installation and a useful example quickly.
 
-Use the README for what the environment cannot explain: why the code is arranged this way, which pattern to follow, and what a new contributor is likely to miss.
+Keep Features and Usage separate. Features names what the project can do. Usage shows it working.
+
+Prefer examples over claims. Use visuals only when they communicate something important.
+
+Keep detailed API, architecture, troubleshooting, and contribution material in dedicated documentation.
+
+Use a small number of meaningful badges and repository relative links.
 
 ---
 
-## Done
+## Skeleton
 
-A README is complete when a new contributor can run the code and knows where to make the first change.
+````markdown
+# <Project name>
+
+<What this is, who it is for when relevant, and why it is useful.>
+
+<optional screenshot, demo, benchmark, or meaningful badges>
+
+## Quick start
+
+```bash
+<install command>
+```
+
+```text
+<smallest useful example>
+```
+
+## Features
+
+* <important capability>
+* <important capability>
+* <important capability>
+
+## Usage
+
+### <common workflow>
+
+```text
+<example>
+```
+
+## Documentation
+
+<links to detailed docs>
+
+## Requirements
+
+<platform, runtime, dependency, or compatibility constraints>
+
+## Contributing
+
+<short invitation and link to contribution guide>
+
+## Support
+
+<where to report issues or ask questions>
+
+## License
+
+<license name and link>
+````
+
+---
+
+## Filling the skeleton
+
+Offer before you omit. These sections usually need something the repository cannot tell you.
+
+* **License** — when no license file exists, offer MIT, Apache 2.0, GPL-3.0, or holding off. Write the file along with the section.
+* **Support** — offer the issue tracker, a discussions link, or a contact address.
+* **Contributing** — offer a short invitation in the README, or a `CONTRIBUTING.md` to link to.
+* **Documentation** — offer the docs that already exist in the repository, and say which are worth linking.
+* **Screenshot or demo** — offer a placeholder the user can fill later.
+
+Omit a section when the project has none and the user declines to add one.

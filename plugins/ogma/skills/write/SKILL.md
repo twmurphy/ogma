@@ -34,6 +34,16 @@ Read the filing reference for the document you are writing.
 * Issues and pull requests live on GitHub. Use the [remote filing reference](refs/file-remote.md)
 * Other documents live in the repository. Use the [local filing reference](refs/file-local.md)
 
+## Skeletons
+
+Follow the skeleton in the reference. It is the standard, not a starting point. Keep its sections, in its order, under its names.
+
+Fill every section you can from the repository, the request, and the conversation.
+
+When a section needs content you cannot derive, offer the user a short set of options to choose from. A concrete choice is easier to answer than an open question. Each reference names the offers it expects.
+
+Omit a section only when the document genuinely has none. Add a section only when the reader needs it to act.
+
 ---
 
 ## Routing statements
