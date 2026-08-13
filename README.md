@@ -6,10 +6,10 @@ Ogma is a Claude Code marketplace for the work that surrounds the code. Its plug
 
 ## Quick start
 
-Clone the repository, then add it as a marketplace and install the plugin:
+Add the marketplace and install the plugin:
 
 ```bash
-/plugin marketplace add /path/to/ogma && /plugin install ogma@ogma
+/plugin marketplace add twmurphy/ogma && /plugin install ogma@ogma
 ```
 
 Ask for a document. The `write` skill loads itself and routes to the right reference:
@@ -25,6 +25,7 @@ Write a spec for the session revocation feature.
 * Gives each document a skeleton to follow, and names what to ask you when a section needs content the repository cannot supply
 * Settles authority between documents, so a spec, an issue, and a commit that disagree have a defined winner
 * Files each document where it belongs, in the repository or on GitHub
+* Carries the same rules into how the agent talks to you, not just what it writes down
 
 ## Usage
 
@@ -54,11 +55,21 @@ Review this slice against the acceptance criteria and tighten the test contract.
 Turn these notes into a skill.
 ```
 
+### Hold the agent to the same rules out loud
+
+`speak` applies the writing rules to the agent's replies, so a chat answer reads
+like the documents it produces:
+
+```text
+/ogma:speak
+```
+
 ## Documentation
 
 * [`write` skill](plugins/ogma/skills/write/SKILL.md) — routing, information hierarchy, and the principles behind the references
 * [Document references](plugins/ogma/skills/write/docs) — one per document type
 * [Shared references](plugins/ogma/skills/write/refs) — cold-start writing, tracking work, test proof, and filing
+* [`speak` skill](plugins/ogma/skills/speak/SKILL.md) — the rules the agent applies to its own replies
 
 ## Requirements
 

@@ -1,6 +1,6 @@
 {
   "name": "ogma",
-  "description": "Writing tools.",
+  "description": "A repeatable process for writing documents and speaking to the user.",
   "version": "0.1.0",
   "author": { "name": "Tom", "email": "tomwademurphy@gmail.com" }
 }

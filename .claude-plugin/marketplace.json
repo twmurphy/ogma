@@ -6,7 +6,7 @@
     {
       "name": "ogma",
       "source": "./plugins/ogma",
-      "description": "Operating guide for making great docs."
+      "description": "A repeatable process for writing documents and speaking to the user."
     }
   ]
 }
