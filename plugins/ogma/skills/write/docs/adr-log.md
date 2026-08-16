@@ -2,11 +2,9 @@
 
 Reference for [`write`](../SKILL.md).
 
-An ADR records a rule that outlives the feature that produced it. Most decisions belong in the [Specification](spec.md).
+An ADR records a rule that outlives the feature that produced it. The log states every rule in force. Most decisions belong in the [Specification](spec.md).
 
 **Read first:** [level set](../refs/level-set.md), [tracking work](../refs/tracking-work.md).
-
-**Lifecycle:** normative. The log states the rules in force.
 
 ---
 
@@ -36,7 +34,7 @@ Write a full ADR when someone will need to reconstruct why the rule won without 
 
 ## Where it lives
 
-`.ogma/docs/adr/`, per [filing locally](../refs/file-local.md).
+`.ogma/docs/adr/`, per [filing in the repository](../../file/refs/repository.md).
 
 ```text
 .ogma/docs/adr/

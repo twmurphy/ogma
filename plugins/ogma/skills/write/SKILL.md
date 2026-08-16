@@ -1,6 +1,6 @@
 ---
 name: write
-description: Writing documents for agents. Use when creating or editing a skill, AGENTS.md, CLAUDE.md, README, specification, slice, bug, ADR, pull request description, or commit message.
+description: Writing documents for agents. Use for writing anything other than code: when creating or editing a skill, AGENTS.md, CLAUDE.md, README, specification, slice, bug, ADR, pull request description, or commit message.
 ---
 
 Use this as a reference whenever you're writing a document that an agent will consume, whether that's a skill, an `AGENTS.md` or `CLAUDE.md` file, a spec or pull request description, or a doc the agent reaches through a pointer. The packaging may change, but the writing principles stay the same. The goal is predictability: you want the agent to follow the same process every time, not produce the exact same output.
@@ -23,10 +23,7 @@ Read the file for the document you are writing. Each one names the shared refere
 
 ## Filing
 
-Read the filing reference for the document you are writing.
-
-* Issues and pull requests live on GitHub. Use the [remote filing reference](refs/file-remote.md)
-* Other documents live in the repository. Use the [local filing reference](refs/file-local.md)
+Once the document is written, the [`file`](../file/SKILL.md) skill governs where it goes and what carries its state.
 
 ## Skeletons
 
@@ -168,4 +165,3 @@ Good docs get shorter over time, not just longer. Revisit them regularly and rem
 * **Delete instructions that do not change behavior.** If the agent already does something by default, telling it to do the same thing adds context without helping. Test the instruction against actual behavior. If removing it changes nothing, leave it out.
 
 When a sentence does not earn its place, delete the sentence. Do not keep trimming words from an instruction that does no useful work.
-

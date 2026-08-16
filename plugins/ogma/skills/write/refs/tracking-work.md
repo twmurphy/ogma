@@ -88,21 +88,8 @@ Leave out deliberation that changes nothing later.
 
 ---
 
-## Let metadata own state
+## Write the body, not the state
 
-When the platform already tracks status, assignee, labels, issue type, milestone, dependencies, or parent and child links, use it.
+Use the document body for meaning, reasoning, scope, and acceptance. Status, labels, parents, and dependencies belong to the platform.
 
-Do not repeat the same state in prose. Two copies will drift.
-
-Use the document body for meaning, reasoning, scope, and acceptance.
-
-[Filing remotely](file-remote.md) names what GitHub carries for an issue.
-
----
-
-## Normative or historical
-
-Every tracking doc is either normative or historical.
-
-* A **normative** doc governs current work. Update it when intended behavior changes.
-* A **historical** doc records what was decided at the time. When reality changes, supersede it rather than rewriting it.
+The [`file`](../../file/SKILL.md) skill owns that boundary.

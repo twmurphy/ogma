@@ -6,8 +6,6 @@ An Issue PR merges one issue's branch into its target branch. The same PR stays 
 
 **Read first:** [level set](../refs/level-set.md), [tracking work](../refs/tracking-work.md), [writing tests](../refs/writing-tests.md).
 
-**Lifecycle:** normative while open, historical once merged.
-
 ---
 
 ## Contract review

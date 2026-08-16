@@ -1,6 +1,6 @@
-# Filing locally
+# Filing in the repository
 
-Shared reference for [`write`](../SKILL.md).
+Reference for [`file`](../SKILL.md).
 
 Use this for documents that live in the repository rather than on GitHub.
 

@@ -6,8 +6,6 @@ A Specification records what a feature must do and why. Tests and implementation
 
 **Read first:** [level set](../refs/level-set.md), [tracking work](../refs/tracking-work.md).
 
-**Lifecycle:** normative until feature integration completes.
-
 ---
 
 ## Acceptance criteria

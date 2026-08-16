@@ -6,8 +6,6 @@ A Slice is one vertical increment of a Specification that a fresh agent can impl
 
 **Read first:** [level set](../refs/level-set.md), [tracking work](../refs/tracking-work.md), [writing tests](../refs/writing-tests.md).
 
-**Lifecycle:** normative until the Feature PR closes it.
-
 ---
 
 ## Slice vertically
