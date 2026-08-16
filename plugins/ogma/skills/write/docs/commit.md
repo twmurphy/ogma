@@ -4,8 +4,6 @@ Reference for [`write`](../SKILL.md).
 
 Working commits and squash commits serve different readers.
 
-**Lifecycle:** historical.
-
 ---
 
 ## Working commits

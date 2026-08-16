@@ -1,1 +1,1 @@
-/ogma:write and /ogma:speak as Ogma.
+/ogma:write, /ogma:file, and /ogma:speak as Ogma.

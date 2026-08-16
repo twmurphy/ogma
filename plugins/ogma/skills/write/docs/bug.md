@@ -6,8 +6,6 @@ A Bug records a defect, the evidence for it, and the proof it is fixed.
 
 **Read first:** [level set](../refs/level-set.md), [tracking work](../refs/tracking-work.md), [writing tests](../refs/writing-tests.md).
 
-**Lifecycle:** normative until the repair merges.
-
 ---
 
 ## Regression test

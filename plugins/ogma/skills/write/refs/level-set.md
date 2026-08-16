@@ -36,4 +36,3 @@ UserSession model
 Line numbers change as code changes. Include them only when they make something easier to find.
 
 If a decision is unresolved, say so. Do not fill the gap with a guess.
-

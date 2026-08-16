@@ -96,7 +96,7 @@ Add relationships to an issue that already exists:
 gh issue edit 102 --parent 100 --add-blocked-by 101
 ```
 
-Update a normative issue in place, so the issue keeps stating current intent:
+Update an issue in place, so it keeps stating current intent:
 
 ```bash
 gh issue edit 100 --body-file spec.md

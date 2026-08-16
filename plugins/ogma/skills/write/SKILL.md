@@ -165,4 +165,3 @@ Good docs get shorter over time, not just longer. Revisit them regularly and rem
 * **Delete instructions that do not change behavior.** If the agent already does something by default, telling it to do the same thing adds context without helping. Test the instruction against actual behavior. If removing it changes nothing, leave it out.
 
 When a sentence does not earn its place, delete the sentence. Do not keep trimming words from an instruction that does no useful work.
-

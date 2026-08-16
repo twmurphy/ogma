@@ -92,4 +92,4 @@ Leave out deliberation that changes nothing later.
 
 Use the document body for meaning, reasoning, scope, and acceptance. Status, labels, parents, and dependencies belong to the platform.
 
-The [`file`](../../file/SKILL.md) skill owns that boundary, and the lifecycle each document declares.
+The [`file`](../../file/SKILL.md) skill owns that boundary.
