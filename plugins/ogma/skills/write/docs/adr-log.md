@@ -36,7 +36,7 @@ Write a full ADR when someone will need to reconstruct why the rule won without 
 
 ## Where it lives
 
-`.ogma/docs/adr/`, per [filing locally](../refs/file-local.md).
+`.ogma/docs/adr/`, per [filing in the repository](../../file/refs/repository.md).
 
 ```text
 .ogma/docs/adr/

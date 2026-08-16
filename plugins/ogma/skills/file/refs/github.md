@@ -1,10 +1,10 @@
-# Filing remotely
+# Filing on GitHub
 
-Shared reference for [`write`](../SKILL.md).
+Reference for [`file`](../SKILL.md).
 
 Use this to file an issue or a pull request. Both live on GitHub, so this covers what the platform carries, what stays in the body, and the commands that put them there.
 
-The body follows [tracking work](tracking-work.md) and the reference for the document you are writing.
+The body comes from the [`write`](../../write/SKILL.md) skill: its [tracking work](../../write/refs/tracking-work.md) reference, plus the reference for the document you are writing.
 
 ---
 
@@ -45,10 +45,10 @@ Namespace both axes so they cluster in the label list rather than scattering alp
 
 | Label | The issue holds |
 | --- | --- |
-| `type:spec` | a [Specification](../docs/spec.md) |
-| `type:bug` | a [Bug](../docs/bug.md) |
+| `type:spec` | a [Specification](../../write/docs/spec.md) |
+| `type:bug` | a [Bug](../../write/docs/bug.md) |
 
-A [Slice](../docs/slice.md) carries no type label. Being a sub-issue of a `type:spec` issue is what identifies it.
+A [Slice](../../write/docs/slice.md) carries no type label. Being a sub-issue of a `type:spec` issue is what identifies it.
 
 A repository tracks work this skill has no document for, such as upkeep or a small adjustment to existing behavior. Add a label for that lane when the project needs to filter on it.
 
@@ -128,7 +128,7 @@ Cite the numbers GitHub assigned rather than inventing your own. Read them with 
 | Review phase | draft while the contract is under review, ready once implementation lands |
 | Issue link | the body, as `**Issue:** #101` |
 
-An [Issue PR](../docs/pr-issue.md) bases on its feature branch. A [Feature PR](../docs/pr-feature.md) bases on the default branch. `--head` defaults to the current branch.
+An [Issue PR](../../write/docs/pr-issue.md) bases on its feature branch. A [Feature PR](../../write/docs/pr-feature.md) bases on the default branch. `--head` defaults to the current branch.
 
 Open an Issue PR as a draft, because contract review asks a different question than implementation review:
 

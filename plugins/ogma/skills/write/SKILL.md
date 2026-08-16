@@ -23,10 +23,7 @@ Read the file for the document you are writing. Each one names the shared refere
 
 ## Filing
 
-Read the filing reference for the document you are writing.
-
-* Issues and pull requests live on GitHub. Use the [remote filing reference](refs/file-remote.md)
-* Other documents live in the repository. Use the [local filing reference](refs/file-local.md)
+Once the document is written, the [`file`](../file/SKILL.md) skill governs where it goes and what carries its state.
 
 ## Skeletons
 

@@ -6,7 +6,7 @@
     {
       "name": "ogma",
       "source": "./plugins/ogma",
-      "description": "A repeatable process for writing documents and speaking to the user."
+      "description": "A repeatable process for writing documents, filing them, and speaking to the user."
     }
   ]
 }

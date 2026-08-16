@@ -24,7 +24,7 @@ Write a spec for the session revocation feature.
 * Covers skills, `AGENTS.md`, `CLAUDE.md`, READMEs, specifications, slices, bugs, ADRs, pull requests, and commit messages
 * Gives each document a skeleton to follow, and names what to ask you when a section needs content the repository cannot supply
 * Settles authority between documents, so a spec, an issue, and a commit that disagree have a defined winner
-* Files each document where it belongs, in the repository or on GitHub
+* Files each document where it belongs, in the repository or on GitHub, and lets the platform carry its state
 * Carries the same rules into how the agent talks to you, not just what it writes down
 
 ## Usage
@@ -53,6 +53,14 @@ Review this slice against the acceptance criteria and tighten the test contract.
 Turn these notes into a skill.
 ```
 
+### File it where it belongs
+
+`file` takes over once the document exists. It picks the destination, sets the labels and links, and leaves the state to the platform:
+
+```text
+File this spec as an issue with its slices underneath it.
+```
+
 ### Hold the agent to the same rules out loud
 
 `speak` applies the writing rules to the agent's replies, so a chat answer reads
@@ -66,7 +74,8 @@ like the documents it produces:
 
 * [`write` skill](plugins/ogma/skills/write/SKILL.md) — routing, information hierarchy, and the principles behind the references
 * [Document references](plugins/ogma/skills/write/docs) — one per document type
-* [Shared references](plugins/ogma/skills/write/refs) — cold-start writing, tracking work, test proof, and filing
+* [Shared references](plugins/ogma/skills/write/refs) — cold-start writing, tracking work, and test proof
+* [`file` skill](plugins/ogma/skills/file/SKILL.md) — where a document goes, on GitHub or in the repository
 * [`speak` skill](plugins/ogma/skills/speak/SKILL.md) — the rules the agent applies to its own replies
 
 ## Requirements
