@@ -1,6 +1,6 @@
 ---
 name: write
-description: Writing documents for agents. Use when creating or editing a skill, AGENTS.md, CLAUDE.md, README, specification, slice, bug, ADR, pull request description, or commit message.
+description: Writing documents for agents. Use for writing anything other than code: when creating or editing a skill, AGENTS.md, CLAUDE.md, README, specification, slice, bug, ADR, pull request description, or commit message.
 ---
 
 Use this as a reference whenever you're writing a document that an agent will consume, whether that's a skill, an `AGENTS.md` or `CLAUDE.md` file, a spec or pull request description, or a doc the agent reaches through a pointer. The packaging may change, but the writing principles stay the same. The goal is predictability: you want the agent to follow the same process every time, not produce the exact same output.

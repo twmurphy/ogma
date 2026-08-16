@@ -1,6 +1,6 @@
 ---
 name: speak
-description: Rules for speaking to the user. Use when answering a question, explaining what happened, diagnosing a problem, recommending an option, asking the user for information, reviewing or evaluating something, explaining a concept, or pointing out additional insights.
+description: Rules for speaking to the user. Apply to every response: before calling a tool, answering a question, explaining what happened, diagnosing a problem, recommending an option, asking the user for information, reviewing or evaluating something, explaining a concept, or pointing out additional insights.
 ---
 
 Use this whenever you respond to the user. It governs the shape of a reply in conversation, not the documents you write — for those, use the write skill.
