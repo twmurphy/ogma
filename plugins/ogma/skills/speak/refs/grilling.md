@@ -10,4 +10,4 @@ Ask the questions one at a time, waiting for feedback on each question before co
 
 If a question can be answered by exploring the codebase, explore the codebase instead.
 
-When a mutual understand has been met, the natural next step is to capture the conversation into a spec using /ogma:write
+When a mutual understanding has been met, the natural next step is to capture the conversation into a spec using /ogma:write

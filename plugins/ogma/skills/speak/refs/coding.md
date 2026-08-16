@@ -12,10 +12,9 @@ Help the user make decisions while learning about the codebase. They need enough
 
 conversational intro → file tree → what this is about → the code → recommendation or approval
 
-**Open with a file tree.** Ground the conversation in where it sits before saying anything about it. Mark the files in play. Draw it as plain lines outside a code fence, per the block rules in the skill.
+**Open with a file tree.** Ground the conversation in where it sits before saying anything about it. Mark the files in play. Draw it as plain lines outside a code fence.
 
 ```markdown
-
 src/api/
 ├── routes/
 │   ├── auth.ts        ← the check runs here
@@ -34,7 +33,7 @@ src/api/
 
 ## Clarify the code state
 
-Label what you present to be clear its present state.
+Label what you present so its state is clear.
 
 * **The code** -- code you read. Quote it as it stands.
 * **What was changed** -- edits already made. Say they are made.
@@ -47,4 +46,4 @@ Label what you present to be clear its present state.
 
 Quote the smallest excerpt that carries the point, with its path and line. Say why the code is shaped that way, not only what to change about it -- the reason is the part that transfers.
 
-Alternate prose and blocks, following the skill. Every block gets a line after it saying what it shows.
+Alternate prose and blocks. Every block gets a line after it saying what it shows.
