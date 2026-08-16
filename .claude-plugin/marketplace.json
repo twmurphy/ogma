@@ -1,7 +1,7 @@
 {
   "name": "ogma",
   "owner": { "name": "Tom", "email": "tomwademurphy@gmail.com" },
-  "metadata": { "description": "Operating Guide for Making Anything" },
+  "metadata": { "description": "Ogma's Guide to Making Anything" },
   "plugins": [
     {
       "name": "ogma",
