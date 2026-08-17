@@ -48,6 +48,8 @@ For each affected document, choose one:
 
 A feature's own reasoning already sits in its [Specification](../docs/spec.md). Deviations go back to it at the Feature PR, not here.
 
+A document a reader cannot find is a document they do not have. When you create one, check that the [README](../docs/readme.md) points at the documentation it lives in, and update the README when nothing does.
+
 ---
 
 ## Report what you checked
