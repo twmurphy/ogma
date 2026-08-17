@@ -27,7 +27,7 @@ src/api/
 
 **Then the code.** Real lines from the real files, with paths, not a paraphrase.
 
-**End with a [recommendation](recommendation.md) or an [approval](approvals.md).** A code conversation that ends in neither has left the user with nothing to do.
+**End with a recommendation or an approval.** A code conversation that ends in neither has left the user with nothing to do.
 
 ---
 
