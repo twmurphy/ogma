@@ -25,7 +25,7 @@ Write a spec for the session revocation feature.
 * Gives each document a skeleton to follow, and names what to ask you when a section needs content the repository cannot supply
 * Settles authority between documents, so a spec, an issue, and a commit that disagree have a defined winner
 * Files each document where it belongs, in the repository or on GitHub, and lets the platform carry its state
-* Carries the same rules into how the agent talks to you, not just what it writes down
+* Gives replies in conversation their own shape — grounded in a diagram or the real code, and ending in something for you to decide
 
 ## Usage
 
@@ -61,10 +61,11 @@ Turn these notes into a skill.
 File this spec as an issue with its slices underneath it.
 ```
 
-### Hold the agent to the same rules out loud
+### Shape the conversation, not just the documents
 
-`speak` applies the writing rules to the agent's replies, so a chat answer reads
-like the documents it produces:
+`speak` covers replies rather than files. It holds a response to one main point,
+grounds it in a diagram or the real code, and closes on an approval or a
+recommendation, so every turn leaves you something to answer:
 
 ```text
 /ogma:speak
