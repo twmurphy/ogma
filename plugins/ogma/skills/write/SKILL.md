@@ -17,6 +17,7 @@ Read the file for the document you are writing. Each one names the shared refere
 | An Issue for a Slice | [docs/slice.md](docs/slice.md) |
 | An Issue for a Bug | [docs/bug.md](docs/bug.md) |
 | An ADR | [docs/adr-log.md](docs/adr-log.md) |
+| A concept document, explaining how part of the system works | [docs/concept.md](docs/concept.md) |
 | A PR for one Issue | [docs/pr-issue.md](docs/pr-issue.md) |
 | A PR for a Feature Branch | [docs/pr-feature.md](docs/pr-feature.md) |
 | A commit message | [docs/commit.md](docs/commit.md) |
