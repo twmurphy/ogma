@@ -1,62 +1,57 @@
 # Documenting a feature
 
-Shared reference for [`write`](../SKILL.md).
+Reference for [`write`](../SKILL.md).
 
-Use this once the slices have merged and before the feature pull request. Read the feature branch against the default branch and decide what, if anything, a reader now needs.
-
----
-
-## Start from no change
-
-Most features change nothing a reader needs. Expect to write nothing, and let the exceptions argue for themselves.
-
-Documentation earns its place when a reader needs something the repository cannot give them cheaply. Everything else is a second copy of the repository, written in prose, going stale on its own schedule.
+Use this after the Slices merge and before the Feature PR. Compare the feature branch with the default branch and decide whether any documentation must change.
 
 ---
 
-## The test
+## Start with nothing
 
-Take each thing the feature changed and ask two questions in order.
+Most features need no documentation change.
 
-**Who needs this?** Name the reader and what they are trying to do. When you cannot name one, there is nothing to write.
-
-**Can they get it from the code?** Signatures, routes, config keys, directory layout — the repository answers these already, and stays right for longer. Write what the code cannot show: how the parts fit together, what must stay true, and why a choice binds later work.
-
-A third question shapes what you write rather than whether to write it. **Will this still be true next month?** A detail that moves with every feature belongs in an abstraction, or nowhere.
+Write only what a reader cannot recover cheaply from the repository: how parts fit together, what must stay true, or why a choice matters later.
 
 ---
 
-## Four outcomes
+## Test each change
 
-Give every affected document one.
+Ask:
 
-| Outcome | When |
-| --- | --- |
-| **Nothing** | the usual answer |
-| **Update** | a document you already have now states something false |
-| **Delete** | its subject is gone and no reader is looking for it |
-| **Create** | knowledge passed the test and no document owns it |
-
-Delete is the one that gets skipped. A document describing a capability the feature removed is worse than no document, because a reader trusts it.
+1. **Who needs this?** Name the reader and what they need to do. If no reader needs it, stop.
+2. **Can the repository show it?** Leave signatures, routes, config keys, and directory layout to the code.
+3. **Will it stay true?** Do not document details that change with every feature.
 
 ---
 
-## Where it goes
+## Choose an outcome
 
-| What the feature changed | Where it goes |
-| --- | --- |
-| A rule that binds future work | an [ADR](../docs/adr-log.md) |
-| An explanation several features need | a [concept document](../docs/concept.md) |
-| What the project is, or how to try it | the [README](../docs/readme.md) |
-| Why this feature works the way it does | its [Specification](../docs/spec.md), already filed |
-| Anything else | nothing |
+For each affected document, choose one:
 
-The README goes under the test like everything else. Most features leave what the project is untouched.
+| Outcome     | Use when                                               |
+| ----------- | ------------------------------------------------------ |
+| **Nothing** | No reader needs a documentation change                 |
+| **Update**  | The document now says something false                  |
+| **Delete**  | The document describes something that no longer exists |
+| **Create**  | Readers need durable knowledge that no document owns   |
 
 ---
 
-## Say what you passed over
+## Put it in the right place
 
-Report the decision, not only the edits. Name what you changed, and say how much you read and left alone. A reader who sees only the edits cannot tell a careful pass from a skipped one.
+| What changed                         | Where it belongs                       |
+| ------------------------------------ | -------------------------------------- |
+| A rule that binds future work        | [ADR](../docs/adr-log.md)              |
+| An explanation several features need | [Concept document](../docs/concept.md) |
+| What the project is or how to try it | [README](../docs/readme.md)            |
+| Anything else                        | Nowhere                                |
 
-When knowledge passes the test but the repository holds no reason for it — a dependency swapped with no recorded argument — say so and ask. A reason you invent reads exactly like one you were told.
+A feature's own reasoning already sits in its [Specification](../docs/spec.md). Deviations go back to it at the Feature PR, not here.
+
+---
+
+## Report what you checked
+
+Say what you updated, deleted, created, and left unchanged.
+
+If documentation needs a reason the repository does not contain, ask for it. Do not invent one.
