@@ -23,6 +23,12 @@ Where a step names a skill, read it when you reach the step, not before.
 12. **Squash merge to main.** The squash commit closes the slices and owns the durable history. See [`write`](../write/docs/commit.md).
 13. **Deploy the feature.**
 
+**Track your work throughout.**
+- PRs are reviewed via a comment.
+- Slices become unblocked as work lands.
+- Slices carry a `state:` label. Move it when you start building, and let the merge close the issue.
+- Accepted changes go back to the document that owns them: contract changes to the slice, deviations to the spec.
+
 # Also consider
 
 - **Spike.** De-risk solutions by recommending a spike in a throwaway worktree. Spikes answer unknown questions.
