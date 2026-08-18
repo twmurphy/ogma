@@ -118,17 +118,17 @@ src/api/
 
 ### Disambiguating Lists
 
-Always namee number the items when you announce them numerically. (e.g. "Three things that..." "Two smalelr edits follow" "One thing I left alone")
+Always name and number the items when you announce them numerically. (e.g. "Three things that..." "Two smaller edits follow" "One thing I left alone")
 
 ```markdown
 ---
-**One thign I left alone:** 
+**One thing I left alone:** 
 - **<The one thing>:** <prose>
 ```
 
 ```markdown
 ---
-**Three thigns that...** 
+**Three things that...** 
 1. **<Thing 1>:** <prose>
 2. **<Thing 2>:** <prose>
 3. **<Thing 3>:** <prose>
