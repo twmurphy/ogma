@@ -22,7 +22,8 @@ Let's build session revocation.
 
 * Sequences a feature from interview to spec, slices, tests, review, and merge, so the agent always knows the next step
 * Routes each document type to its own reference, so only the rules that apply reach the agent's context
-* Covers skills, `AGENTS.md`, `CLAUDE.md`, READMEs, specifications, slices, bugs, ADRs, pull requests, and commit messages
+* Covers skills, `AGENTS.md`, `CLAUDE.md`, READMEs, specifications, slices, bugs, ADRs, concept documents, pull requests, and commit messages
+* Filters what a feature documents, so most changes produce no documentation and what matters lands in the right place
 * Gives each document a skeleton to follow, and names what to ask you when a section needs content the repository cannot supply
 * Settles authority between documents, so a spec, an issue, and a commit that disagree have a defined winner
 * Files each document where it belongs, in the repository or on GitHub, and lets the platform carry its state
@@ -90,7 +91,7 @@ recommendation, so every turn leaves you something to answer:
 * [`make` skill](plugins/ogma/skills/make/SKILL.md) — the order the work happens in, and which skill governs each step
 * [`write` skill](plugins/ogma/skills/write/SKILL.md) — routing, information hierarchy, and the principles behind the references
 * [Document references](plugins/ogma/skills/write/docs) — one per document type
-* [Shared references](plugins/ogma/skills/write/refs) — cold-start writing, tracking work, and test proof
+* [Shared references](plugins/ogma/skills/write/refs) — cold-start writing, tracking work, test proof, and deciding what to document
 * [`file` skill](plugins/ogma/skills/file/SKILL.md) — where a document goes, on GitHub or in the repository
 * [`speak` skill](plugins/ogma/skills/speak/SKILL.md) — the rules the agent applies to its own replies
 

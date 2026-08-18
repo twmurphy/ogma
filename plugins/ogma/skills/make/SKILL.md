@@ -18,7 +18,7 @@ Where a step names a skill, read it when you reach the step, not before.
 7. **Implement until the tests pass.**
 8. **Mark the PR ready, for implementation review.** Surface anything the accepted tests now prove differently.
 9. **Merge the slice into the feature branch.** Return to step 5 for the next slice.
-10. **Document the changes.** Update the readme and any standing documentation, on the feature branch, so the docs ship with the capability.
+10. **Decide what to document.** Most features change nothing a reader needs. Work on the feature branch, so whatever survives ships with the capability. See [`write`](../write/refs/documenting.md).
 11. **Open the feature integration PR.** Validate the assembled result against the spec. See [`write`](../write/docs/pr-feature.md).
 12. **Squash merge to main.** The squash commit closes the slices and owns the durable history. See [`write`](../write/docs/commit.md).
 13. **Deploy the feature.**

@@ -22,6 +22,8 @@ Not an ADR:
 
 Keep feature specific decisions in the Specification.
 
+An ADR states a rule to follow. An explanation of how something works belongs in a [concept document](concept.md), which waits until several features need it.
+
 ---
 
 ## Which form
