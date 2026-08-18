@@ -8,6 +8,16 @@ Read it when writing a Slice, Bug, or Issue PR.
 
 ---
 
+## Tests prove code
+
+A test is code that runs against the code being changed. The test contract covers that code and nothing else.
+
+Prove prose and documentation by reading them. A skill, `AGENTS.md`, README, ADR, Specification, or any other document earns its proof through acceptance criteria and review.
+
+When one Slice or Bug changes both, write the contract for the code and leave the documents to review. When it changes only documents, say so in place of the contract and let verification be the review.
+
+---
+
 ## Where proof sits
 
 ```text
@@ -28,7 +38,7 @@ The issue owns the test contract. The Issue PR reviews the tests that satisfy it
 
 ## The test contract
 
-Give every criterion at least one row.
+Give every criterion the code must satisfy at least one row.
 
 | Criterion                   | Proof                                    | Level               | Why this test exists                         |
 | --------------------------- | ---------------------------------------- | ------------------- | -------------------------------------------- |
@@ -38,7 +48,7 @@ Give every criterion at least one row.
 
 Review the contract once every test fails for the behavior it is missing.
 
-The contract is complete when every criterion has proof and every test says why it exists.
+The contract is complete when every criterion it covers has proof and every test says why it exists.
 
 ---
 
